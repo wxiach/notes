@@ -6,6 +6,9 @@ export default defineConfig({
   description: '我的个人笔记',
   lastUpdated: true,
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://notes.wxiach.cn',
+  },
   markdown: {
     lineNumbers: true,
     image: { lazyLoading: true },

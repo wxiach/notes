@@ -2,6 +2,7 @@
   "name": "notes",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@10.23.0",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
