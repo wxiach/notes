@@ -13,7 +13,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '全部笔记', link: '/notes/' },
+      { text: '初级会计实务', link: '/notes/初级会计实务/01-概述' },
     ],
     sidebar: {
       '/notes/': [
@@ -21,19 +21,17 @@ export default defineConfig({
           text: '初级会计实务',
           collapsed: false,
           items: [
-            { text: '总览', link: '/notes/accounting/' },
-            { text: '基础概念', link: '/notes/accounting/01-basics' },
-            { text: '资产', link: '/notes/accounting/02-assets' },
-            { text: '负债与所有者权益', link: '/notes/accounting/03-liabilities-equity' },
-            { text: '收入、费用和利润', link: '/notes/accounting/04-revenue-expense-profit' },
-            { text: '财务报告', link: '/notes/accounting/05-financial-report' },
-            { text: '成本核算与政府会计', link: '/notes/accounting/06-cost-government' },
+            { text: '第一章 概述', link: '/notes/初级会计实务/01-概述' },
+            { text: '第二章 会计基础', link: '/notes/初级会计实务/02-会计基础' },
+            { text: '第三章 流动资产', link: '/notes/初级会计实务/03-流动资产' },
+            { text: '第四章 非流动资产', link: '/notes/初级会计实务/04-非流动资产' },
+            { text: '第五章 负债', link: '/notes/初级会计实务/05-负债' },
+            { text: '第六章 所有者权益', link: '/notes/初级会计实务/06-所有者权益' },
+            { text: '第七章 收入、费用和利润', link: '/notes/初级会计实务/07-收入、费用和利润' },
+            { text: '第八章 财务报告', link: '/notes/初级会计实务/08-财务报告' },
+            { text: '第九章 产品成本核算', link: '/notes/初级会计实务/09-产品成本核算' },
+            { text: '第十章 政府会计基础', link: '/notes/初级会计实务/10-政府会计基础' },
           ],
-        },
-        {
-          text: '工具',
-          collapsed: false,
-          items: [{ text: 'Markdown 语法速查', link: '/notes/tools/markdown' }],
         },
       ],
     },
