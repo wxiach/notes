@@ -13,7 +13,7 @@ pnpm preview    # 预览构建结果
 
 ## 部署（Cloudflare Pages）
 
-线上地址：<https://notes.wxiach.cn>（Cloudflare Pages 项目 `notes`）
+线上地址：<https://notes.wxiach.cn>（Cloudflare Pages 项目 `notes`，默认域名 <https://notes-ajv.pages.dev>）
 
 Cloudflare Pages 已连接本仓库 `main` 分支，push 后自动构建部署。构建配置：
 
@@ -26,4 +26,4 @@ Cloudflare Pages 已连接本仓库 `main` 分支，push 后自动构建部署�
 | Node.js 版本 | 22（读取 `.nvmrc`） |
 | pnpm 版本 | 10.23.0（`packageManager` 字段） |
 
-自定义域名 `notes.wxiach.cn` 通过 DNSPod 的 CNAME 记录指向 `notes.pages.dev`。
+自定义域名 `notes.wxiach.cn` 通过 DNSPod 的 CNAME 记录指向 `notes-ajv.pages.dev`。
